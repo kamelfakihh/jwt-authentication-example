@@ -1,0 +1,31 @@
+### 
+
+POST http://localhost:5000/users/login HTTP/1.1
+content-type: application/json
+
+{    
+    "email" : "kamel@gmail.com",
+    "password": "12345678"
+}
+
+### 
+
+POST http://localhost:5000/users/register HTTP/1.1
+content-type: application/json
+
+{    
+    "email" : "kamel@gmail.com"
+}
+
+
+###
+
+POST http://localhost:5000/users/logout HTTP/1.1
+
+### 
+
+GET http://localhost:5000/public-route
+
+### 
+
+GET http://localhost:5000/protected-route
